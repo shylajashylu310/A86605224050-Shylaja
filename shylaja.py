@@ -117,7 +117,7 @@ def main():
     tasks = load_tasks()
     while True:
         print_menu()
-        choice = input("Select an option: ")
+        choice = input("Select an option given below: ")
         if choice == '1':
             view_tasks(tasks)
         elif choice == '2':
@@ -127,7 +127,7 @@ def main():
         elif choice == '4':
             delete_task(tasks)
         elif choice == '5':
-            print("Goodbye!")
+            print("Thank you Goodbye!")
             break
         else:
             print("Invalid choice. Please try again.")
