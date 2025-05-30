@@ -32,7 +32,7 @@ class Task:
         )
 
 
-# Load tasks from a JSON file
+# File from Json program and its Types
 def load_tasks():
     if not os.path.exists(DATA_FILE):
         return []
