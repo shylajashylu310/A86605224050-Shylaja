@@ -2,7 +2,7 @@ import json
 import os
 from datetime import datetime
 
-# File to store tasks
+# FILE TO STORE DATA AND ITS TYPE
 DATA_FILE = "todo_data.json"
 
 # Define a Task class
